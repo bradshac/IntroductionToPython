@@ -1,5 +1,6 @@
 print('Hello, World')
-
+print('first day')
+print(3607*34227)
 ########################################################################
 # This line is a COMMENT -- a note to human readers of this file.
 # When a program runs, it ignores everything from a  # (hash)  mark
@@ -59,7 +60,7 @@ print('Hello, World')
 #   Look at the Console to be sure that your string printed as expected.
 #
 ########################################################################
-print('first day')
+
 ########################################################################
 #
 # Done: 4.
@@ -73,7 +74,7 @@ print('first day')
 #   (HINT: It is an INTERESTING number.)  Get help if your value is wrong.
 #
 ########################################################################
-print(3607*34227)
+
 ########################################################################
 #
 # Done: 5.
