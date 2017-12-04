@@ -129,7 +129,7 @@ jack.forward(75)
 
 ########################################################################
 #
-# TODO: 5.
+# Done: 5.
 #   Run one more time to be sure that all is still OK.
 #   Ensure that no blue bars on the scrollbar-thing to the right remain.
 #
