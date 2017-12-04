@@ -10,11 +10,11 @@ Also:
   -- ASSIGNING a VALUE to a NAME (VARIABLE).
 
 Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
+         their colleagues and Alexander Bradshaw.
 """
 ########################################################################
 #
-# TODO: 1.
+# Done: 1.
 #  (Yes, that means for YOU to DO things per these instructions:)
 #
 # On Line 13 above, replace  PUT_YOUR_OWN_NAME_HERE  with your OWN name.
@@ -29,7 +29,7 @@ import rosegraphics as rg
 
 ########################################################################
 #
-# TODO: 2.
+# Done: 2.
 #   Allow this file to use the rosegraphics.py file by marking the src
 #   directory as a "Sources Root".  Do that by right clicking on the src folder,
 #   then selector  Mark Directory As --> Sources Root
@@ -63,6 +63,14 @@ dave = rg.SimpleTurtle()
 dave.forward(100)
 dave.left(90)
 dave.forward(200)
+dave.right(35)
+dave.backward(75)
+dave.left(20)
+dave.forward(100)
+dave.pen = rg.Pen('blue', 15)
+dave.left(45)
+dave.forward(50)
+
 
 # ----------------------------------------------------------------------
 # Construct a new turtle and ask it to do things.
@@ -77,7 +85,7 @@ matt.forward(50)
 
 ########################################################################
 #
-# TODO: 3.
+# Done: 3.
 #   Add a few more line of your own code above to make one of the
 #   existing Turtles move some more and/or have different
 #   characteristics.
@@ -91,7 +99,7 @@ matt.forward(50)
 
 ########################################################################
 #
-# TODO: 4.
+# Done: 4.
 #   The code above  CONSTRUCTS  two SimpleTurtle objects and gives those objects NAMES:
 #       dave    matt
 #
@@ -109,6 +117,15 @@ matt.forward(50)
 #   As always, test by running the module.
 #
 ########################################################################
+jack = rg.SimpleTurtle()
+jack.pen = rg.Pen('green', 10)
+jack.backward(50)
+jack.left(90)
+jack.forward(100)
+jack.right(45)
+jack.backward(200)
+jack.left(55)
+jack.forward(75)
 
 ########################################################################
 #
