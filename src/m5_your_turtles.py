@@ -38,7 +38,7 @@ goat_turtle.speed = 10
 
 fat_turtle = rg.SimpleTurtle('turtle')
 fat_turtle.pen = rg.Pen('red', 2)
-fat_turtle.speed = 5
+fat_turtle.speed = 10
 size = 100
 
 for k in range(14):
@@ -49,6 +49,15 @@ for k in range(14):
     goat_turtle.left(90)
 
     goat_turtle.pen_down()
+
+    fat_turtle.draw_square(size)
+    fat_turtle.pen_up()
+    fat_turtle.right(90)
+    fat_turtle.forward(10)
+    fat_turtle.left(90)
+
+    fat_turtle.pen_down()
+
     size = size + 12
 
 
